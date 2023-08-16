@@ -59,7 +59,7 @@ const Portfolio = () => {
     <Section title="Portfolio 📁" subtitle="These are some of the projects that I have worked on. ">
         <div className='grid gap-8 lg:gap-14 lg:grid-cols-2'>
             {projects.map(({id,image,title,github,demo}) => (
-                    <div key={id} className='max-w-lg flex shadow-lg shadow-gray-300 rounded-2xl duration-300 hover:scale-105 ease-in-out overflow-hidden'>
+                    <div key={id} className='max-w-lg flex shadow-lg shadow-gray-800 dark:shadow-gray-300 rounded-2xl duration-300 hover:scale-105 ease-in-out overflow-hidden'>
                         <img src={image} alt={title} className='w-2/3'/>
                         <div className='w-1/3 flex flex-col items-center justify-evenly p-1'>
                             <h2>{title}</h2>
