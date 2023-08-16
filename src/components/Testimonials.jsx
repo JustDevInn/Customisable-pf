@@ -33,7 +33,7 @@ const Testimonials = () => {
     >
     <div className='max-w-xl flex flex-col gap-8'>
         {TESTIMONIALS.map(({id, image, name, comment}) =>(
-            <div className='flex p-4 justify-center items-center rounded-xl shadow-md dark:shadow-gray-300 duration-300 ease-in-out hover:scale-125'>
+            <div className='flex p-4 justify-center items-center rounded-xl shadow-md shadow-gray-800 dark:shadow-gray-300 duration-300 ease-in-out hover:scale-125'>
                 <div className='w-1/3' key={id}>
                     <img src={image} alt={name} className='w-20 h-20 object-cover object-top pt-2'/>
                 </div>

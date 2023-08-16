@@ -40,13 +40,19 @@ const Hero = () => {
                 <a href={link}key={id}
                 target='_blank'
                 rel='noopener noreferrer'
-                className='cursor-pointer duration-300 hover:text-rose-600'>{icon}</a>
+                className='cursor-pointer duration-300 hover:text-amber-600 hover:scale-125'>{icon}</a>
             ))}
-            </div>
+        </div>
             {/* avatar and resume */}
             <div>
-                <img src={avatar} alt="imagine" className='w-60 h-60 md:w-72 md:h-72 object-cover object-top  bg-gradient-to-b from-lime-950  rounded-xl pt-5 dark:bg-gradient-to-b dark:from-amber-600'/>
-                <a href='/CV - Justin Peeters copy.pdf' download={true} className='flex items-center justify-center mt-10 bg-gradient-to-r from-lime-950 to-amber-600 dark:from-amber-600 dark:to-lime-950 text-white py-2 rounded-lg'>
+                <img src={avatar} alt="imagine" className='w-60 h-60 md:w-72 md:h-72 object-cover object-top  bg-gradient-to-b from-gray-800  rounded-xl pt-5 dark:bg-gradient-to-b dark:from-gray-300'/>
+                <a href='/CV - Justin Peeters copy.pdf' download={true} 
+                className='flex items-center justify-center mt-10 
+                 bg-gray-400  
+                dark:bg-amber-600 
+                text-white py-2 rounded-lg
+               hover:bg-amber-600 dark:hover:bg-gray-400
+                cursor-pointer hover:scale-105 duration-200'>
                 Resume</a>
            </div>
             {/* arrow down animation */}
